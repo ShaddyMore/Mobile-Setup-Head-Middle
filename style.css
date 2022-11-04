@@ -288,9 +288,10 @@ li {
 
 .skill-list {
   padding: 12px;
+  list-style-type: none;
 }
 
-#skill-title {
+.skill-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
@@ -309,6 +310,7 @@ li {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  list-style-type: none;
 }
 
 .language-list li {
@@ -320,6 +322,9 @@ li {
   border-radius: 8px;
   font-weight: 500;
   font-size: 15px;
+  float: left;
+  margin: 0px;
+  padding: 0px;
 }
 
 .separator-line {
