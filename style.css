@@ -199,6 +199,7 @@ li {
   display: flex;
   font-family: Poppins, sans-serif;
   font-size: 48px;
+  font-weight: 600;
   color: #172b4d;
   line-height: 0.8px;
   padding-top: 12px;
@@ -255,6 +256,9 @@ li {
   display: flex;
   flex-direction: column;
   gap: 14px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
 }
 
 .icons-social-1 {
@@ -289,6 +293,8 @@ li {
 .skill-list {
   padding: 12px;
   list-style-type: none;
+  flex-direction: column;
+  float: left;
 }
 
 .skill-title {
@@ -296,6 +302,11 @@ li {
   font-size: 20px;
   line-height: 24px;
   padding: 20px auto;
+  float: left;
+  margin: 0px;
+  padding: 0px;
+  gap: 8px;
+  /*display: inline-block;*/
 }
 
 .btn-chev {
@@ -311,6 +322,10 @@ li {
   flex-direction: column;
   gap: 8px;
   list-style-type: none;
+  width: 340px;
+  float: left;
+  margin: 0;
+  padding: 0;
 }
 
 .language-list li {
@@ -336,3 +351,13 @@ li {
   justify-content: space-between;
   padding: 18px 12px;
 }
+
+/*.skill-1 li {
+  display: flex;
+  float: left;
+  flex-direction: column;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+}*/
+
