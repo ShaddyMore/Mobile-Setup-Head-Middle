@@ -68,6 +68,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 30px;
 }
 
 .head .nav-bar a {
@@ -245,7 +246,7 @@ li {
   color: #344563;
 }
 
-/* About section  */
+/* About section */
 .about-me {
   background-color: #fff;
   border-top-right-radius: 100px;
@@ -303,10 +304,8 @@ li {
   line-height: 24px;
   padding: 20px auto;
   float: left;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
   gap: 8px;
-  /*display: inline-block;*/
 }
 
 .btn-chev {
@@ -351,13 +350,3 @@ li {
   justify-content: space-between;
   padding: 18px 12px;
 }
-
-/*.skill-1 li {
-  display: flex;
-  float: left;
-  flex-direction: column;
-  gap: 8px;
-  margin: 0;
-  padding: 0;
-}*/
-
