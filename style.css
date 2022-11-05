@@ -306,12 +306,8 @@ li {
   float: left;
   margin: 0;
   gap: 8px;
-}
-
-.skill-title  {
   display: flex;
   justify-content: space-between;
-  padding: 24px 0;
   border-bottom: 1px solid #dfe1e6;
 }
 
