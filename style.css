@@ -300,12 +300,23 @@ li {
 
 .skill-title {
   font-weight: 500;
-  font-size: 20px;
+  font-size: 38px;
   line-height: 24px;
   padding: 20px auto;
   float: left;
   margin: 0;
   gap: 8px;
+}
+
+.skill-title  {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+  border-bottom: 1px solid #dfe1e6;
+}
+
+.border-none {
+  border: none !important;
 }
 
 .btn-chev {
@@ -342,6 +353,7 @@ li {
 .line-1 {
   height: 1px;
   background: #dfe1e6;
+  width: 340px;
 }
 
 .skill-container {
